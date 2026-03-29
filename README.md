@@ -19,11 +19,11 @@ site_backup/home/proserv5/public_html/
 - Plugin files (Elementor, SiteSEO, SiteSEO Pro, GTranslate, Chaty, LiteSpeed Cache, Backuply, Nitropack, Akismet)
 - Language files and translations
 - Root WP config sample and `.htaccess`
+- `site_backup.tar.gz` — full site archive (~89 MB)
 
 ## What's Ignored
 
 - `wp-admin/`, `wp-includes/` (WordPress core)
 - `wp-content/uploads/` (media files)
 - `wp-config.php` (contains credentials)
-- `site_backup.tar.gz` (original archive)
 - `.DS_Store` and IDE files
