@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Archive files
+*.tar.gz
+*.zip
+*.rar
+
+# WordPress core (track theme/plugin customizations only if needed)
+site_backup/home/proserv5/public_html/wp-admin/
+site_backup/home/proserv5/public_html/wp-includes/
+
+# WordPress uploads
+site_backup/home/proserv5/public_html/wp-content/uploads/
+
+# WordPress cache and backups
+site_backup/home/proserv5/public_html/wp-content/cache/
+site_backup/home/proserv5/public_html/wp-content/backup*/
+site_backup/home/proserv5/public_html/wp-content/upgrade/
+
+# WordPress config with credentials
+site_backup/home/proserv5/public_html/wp-config.php
+
+# Debug log
+site_backup/home/proserv5/public_html/wp-content/debug.log
+
+# Node / build tools (if any)
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
